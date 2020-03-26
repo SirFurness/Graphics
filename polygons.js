@@ -81,7 +81,7 @@ function rasterizeTriangle(p0, p1, p2, getXY, makeSlope, drawScanLine) {
 		shortside = Number(x2 > x0);
 	}
 	else {
-		shortside =	Number(x2 < x1);
+		shortside = Number(x2 < x1);
 	}
 
 	let sides = [];
